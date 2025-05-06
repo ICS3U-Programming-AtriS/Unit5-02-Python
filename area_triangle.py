@@ -8,7 +8,7 @@
 
 # Function that calculates and displays the area of a triangle,
 # given base and length
-def calc_area(base: float, height: float) -> float:
+def calc_area(base: float, height: float):
     # Calculate area
     area = base * height * (0.5)
     # Display area [\u00b2 is the unicode sequence for superscript 2]
